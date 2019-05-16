@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginEnd="8sp"
+        android:layout_marginStart="8sp"
+        >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/back">
+            <TextView
+                android:layout_marginBottom="8sp"
+                android:layout_marginTop="8sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textId"
+                android:layout_weight="9"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:background="@drawable/rect"/>
+            <TextView
+                android:layout_marginBottom="8sp"
+                android:layout_marginTop="8sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textName"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2sp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_marginEnd="1sp"
+                android:background="@color/back"
+                android:paddingStart="4sp"
+                android:paddingEnd="4sp"
+                android:paddingBottom="4sp"
+                android:paddingTop="4sp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="12sp"
+                    android:gravity="start"
+                    android:text="Pronouncing:" />
+                <TextView
+                    android:id="@+id/textPronouncing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:gravity="start"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_marginStart="1sp"
+                android:background="@color/back"
+                android:paddingStart="4sp"
+                android:paddingEnd="4sp"
+                android:paddingBottom="4sp"
+                android:paddingTop="4sp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="12sp"
+                    android:gravity="start"
+                    android:text="Description:"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textDescription"
+                    android:textSize="12sp"
+                    android:gravity="start"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

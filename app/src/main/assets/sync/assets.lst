@@ -1,0 +1,12 @@
+dict/ru/hotwords
+dict/ru/orders.json
+dict/ru/search.jsgf
+hmm/ru/README
+hmm/ru/feat.params
+hmm/ru/feature_transform
+hmm/ru/mdef
+hmm/ru/means
+hmm/ru/mixture_weights
+hmm/ru/noisedict
+hmm/ru/transition_matrices
+hmm/ru/variances

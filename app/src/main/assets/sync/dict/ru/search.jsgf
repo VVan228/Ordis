@@ -1,0 +1,8 @@
+﻿#JSGF V1.0;
+
+/*
+JSGF Grammar for hello word
+*/
+
+grammar search;
+public <command> = ордис;
